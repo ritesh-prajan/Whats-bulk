@@ -1,0 +1,8 @@
+{
+  "name": "WhatsApp Bulk Sender Pro",
+  "description": "Professional bulk messaging tool with Excel integration, rate limiting, and session persistence.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
