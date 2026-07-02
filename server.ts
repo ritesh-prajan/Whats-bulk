@@ -840,7 +840,7 @@ async function startServer() {
         }
       });
     } else {
-      const distPath = path.join(process.cwd(), 'dist');
+      const distPath = resolvedDirname;
       app.use(express.static(distPath));
       app.get('*', (req, res) => {
         res.sendFile(path.join(distPath, 'index.html'));
