@@ -4,6 +4,7 @@ node_modules/
 uploads/
 build/
 dist/
+release/
 coverage/
 .DS_Store
 *.log

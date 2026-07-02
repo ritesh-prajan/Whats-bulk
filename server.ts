@@ -65,8 +65,8 @@ async function startServer() {
     const app = express();
     app.set('trust proxy', 1);
     app.use(helmet({
-      contentSecurityPolicy: false, // CSP must be disabled to allow loading in AI Studio preview sandbox iframe
-      frameguard: false, // frameguard must be disabled to prevent X-Frame-Options blocking the iframe loading
+      contentSecurityPolicy: false,
+      frameguard: false,
     }));
     const httpServer = createServer(app);
     const io = new Server(httpServer);
