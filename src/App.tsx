@@ -169,7 +169,7 @@ export default function App() {
     limit: 0,
     defaultCountryCode: "",
     bypassRegCheck: false,
-    cooldown: 0,
+    cooldown: 5,
     batchSize: 0,
     scheduledAt: "",
   });
