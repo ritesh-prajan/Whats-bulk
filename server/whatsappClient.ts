@@ -102,8 +102,7 @@ export class WhatsAppClient {
           '--disable-extensions',
           '--disable-site-isolation-trials',
           '--disable-features=IsolateOrigins,site-per-process',
-          '--disable-web-security',
-          '--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'
+          '--disable-web-security'
         ],
         headless: true
       }
