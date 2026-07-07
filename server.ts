@@ -657,7 +657,7 @@ async function startServer() {
         totalContacts = contacts.length;
 
         // Max campaign size guard (Item 11)
-        const MAX_CONTACTS = 500;
+        const MAX_CONTACTS = 5000;
         if (contacts.length > MAX_CONTACTS) {
           throw new Error(`Campaign too large: ${contacts.length} contacts (max limit is ${MAX_CONTACTS})`);
         }
